@@ -173,8 +173,8 @@ importers:
         specifier: workspace:*
         version: link:../types
       ulid:
-        specifier: ^2.3.0
-        version: 2.4.0
+        specifier: ^3.0.1
+        version: 3.0.1
       zod:
         specifier: ^3.24.2
         version: 3.25.76
@@ -2413,8 +2413,8 @@ packages:
   ufo@1.6.1:
     resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
 
-  ulid@2.4.0:
-    resolution: {integrity: sha512-fIRiVTJNcSRmXKPZtGzFQv9WRrZ3M9eoptl/teFJvjOzmpU+/K/JH6HZ8deBfb5vMEpicJcLn7JmvdknlMq7Zg==}
+  ulid@3.0.1:
+    resolution: {integrity: sha512-dPJyqPzx8preQhqq24bBG1YNkvigm87K8kVEHCD+ruZg24t6IFEFv00xMWfxcC4djmFtiTLdFuADn4+DOz6R7Q==}
     hasBin: true
 
   unbox-primitive@1.1.0:
@@ -4947,7 +4947,7 @@ snapshots:
 
   ufo@1.6.1: {}
 
-  ulid@2.4.0: {}
+  ulid@3.0.1: {}
 
   unbox-primitive@1.1.0:
     dependencies:
