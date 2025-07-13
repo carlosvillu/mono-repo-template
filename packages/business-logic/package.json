@@ -27,7 +27,7 @@
   "dependencies": {
     "@repo/types": "workspace:*",
     "zod": "^3.24.2",
-    "ulid": "^2.3.0"
+    "ulid": "^3.0.1"
   },
   "devDependencies": {
     "@repo/config": "workspace:*",
