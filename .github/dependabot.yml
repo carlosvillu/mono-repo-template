@@ -1,0 +1,127 @@
+version: 2
+updates:
+  # Root package.json
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 10
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "automated"
+
+  # Web app
+  - package-ecosystem: "npm"
+    directory: "/apps/web"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "web-app"
+      - "automated"
+
+  # Admin app
+  - package-ecosystem: "npm"
+    directory: "/apps/admin"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "admin-app"
+      - "automated"
+
+  # UI package
+  - package-ecosystem: "npm"
+    directory: "/packages/ui"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "ui-package"
+      - "automated"
+
+  # Utils package
+  - package-ecosystem: "npm"
+    directory: "/packages/utils"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "utils-package"
+      - "automated"
+
+  # Types package
+  - package-ecosystem: "npm"
+    directory: "/packages/types"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "types-package"
+      - "automated"
+
+  # Config package
+  - package-ecosystem: "npm"
+    directory: "/packages/config"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "dependencies"
+      - "config-package"
+      - "automated"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    target-branch: "main"
+    reviewers:
+      - "@carlosvillu"
+    labels:
+      - "github-actions"
+      - "automated"
