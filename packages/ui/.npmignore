@@ -1,0 +1,45 @@
+# Source files (se excluyen porque se incluye dist/)
+src/
+!src/styles.css
+
+# Development files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+coverage/
+
+# Configuration files
+tsconfig.json
+tsconfig.*.json
+tsconfig.tsbuildinfo
+tailwind.config.js
+vitest.config.ts
+.eslintrc.*
+.prettierrc.*
+
+# Build artifacts (temporal)
+node_modules/
+.turbo/
+
+# Scripts and tools
+scripts/
+
+# Documentation
+CLAUDE.md
+*.md
+!README.md
+
+# Backup files
+*.backup
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
