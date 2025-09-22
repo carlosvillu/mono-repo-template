@@ -35,7 +35,7 @@
     "@repo/config": "workspace:*",
     "@types/react": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
-    "@typescript-eslint/parser": "^6.13.0",
+    "@typescript-eslint/parser": "^8.44.0",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.33.0",
