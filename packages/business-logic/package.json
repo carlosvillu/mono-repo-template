@@ -26,15 +26,15 @@
   },
   "dependencies": {
     "@repo/types": "workspace:*",
-    "zod": "^3.24.2",
-    "ulid": "^2.3.0"
+    "ulid": "^2.3.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@repo/config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
     "@typescript-eslint/parser": "^6.13.0",
     "eslint": "^8.57.0",
-    "typescript": "^5.3.0",
+    "typescript": "^5.9.3",
     "vitest": "^1.0.0"
   }
 }
